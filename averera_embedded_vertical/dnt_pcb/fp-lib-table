@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Project")(type "KiCad")(uri "C:/Users/katku/OneDrive/Desktop/New folder/Averera PCB Data and telemetry/DNT/Project.pretty")(options "")(descr ""))
+  (lib (name "LM1117s-ADJ")(type "KiCad")(uri "C:/Users/katku/OneDrive/Desktop/CTRL_2026/CTRL_2026_/LM1117s-ADJ.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)
