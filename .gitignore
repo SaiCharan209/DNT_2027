@@ -1,0 +1,14 @@
+# KiCad autosaves and backups
+*-backups/
+*.bck
+*.tmp
+*.kicad_prl
+*.kicad_job
+
+# Cache and lock files
+fp-info-cache
+*.lck
+
+# Optional: Ignore manufacturing outputs (gerbers, drill files) 
+# if you prefer to generate them fresh each time
+gerber/
