@@ -1,0 +1,180 @@
+(footprint "1117s_ADJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U2"
+		(at -4 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ba2dc83-5948-478f-b5fa-6b13b85a155c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM1117S-3.3"
+		(at -3.975 -13.115 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bce8bfef-c0de-4bd8-bb23-fb8836bc9d1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebd3f8b9-73bc-49ac-bfc1-b2600ab0d56c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-263"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b05a88f-2007-424f-ae0a-0588ae38edd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.54 -9.43)
+		(end -1.22 -9.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9585166d-e0a7-4218-9db8-56f21ade739a")
+	)
+	(fp_line
+		(start -6.53 -5.78)
+		(end -6.54 -9.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afa427b8-4c2b-49f0-8b26-972cb41c6755")
+	)
+	(fp_line
+		(start -1.22 -9.43)
+		(end -1.22 -5.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c389efc3-da14-4bc8-a0d0-820ad46959c2")
+	)
+	(fp_line
+		(start -1.22 -5.78)
+		(end -6.53 -5.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72fae018-b18a-40b5-9849-bd19abf9910c")
+	)
+	(fp_line
+		(start -8.06 -3.49)
+		(end -8.085 -12.53)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Adhes")
+		(uuid "5c788267-fb2e-4602-a85c-bd627320fac1")
+	)
+	(fp_line
+		(start -8.015 -12.53)
+		(end -0.01 -12.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Adhes")
+		(uuid "5dd919aa-08d5-403f-b5b6-c6b62e85994b")
+	)
+	(fp_line
+		(start -0.05 -3.49)
+		(end -8.06 -3.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Adhes")
+		(uuid "ffaf93f3-5de1-4e3e-a2ba-cb502764a54c")
+	)
+	(fp_line
+		(start -0.01 -12.55)
+		(end -0.05 -3.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Adhes")
+		(uuid "7577cb18-317e-4040-bea6-4c491f345877")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.9425 -6.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93e20d6a-d22b-448a-8884-fe98a8cbdb69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.62 -11)
+		(size 1.1 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9c3c5739-6723-43a4-9122-7a2aafc27706")
+	)
+	(pad "2" smd roundrect
+		(at -3.93 -11)
+		(size 1.1 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a7feccb2-74e6-441f-8e4c-fd735a0751dd")
+	)
+	(pad "3" smd roundrect
+		(at -6.24 -11)
+		(size 1.1 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6d1bdd11-8089-41e4-97b8-cb3bce65c6f9")
+	)
+	(pad "4" smd roundrect
+		(at -3.96 -4.75)
+		(size 7.175 1.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d16baab5-69d6-479e-b03c-3ef3cbbb4886")
+	)
+	(embedded_fonts no)
+)

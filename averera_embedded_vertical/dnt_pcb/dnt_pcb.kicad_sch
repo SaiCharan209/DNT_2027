@@ -8434,7 +8434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117s-ADJ:1117s_ADJ"
+		(property "Footprint" "Library:1117s_ADJ"
 			(at 156.21 24.13 0)
 			(effects
 				(font
@@ -9599,7 +9599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM3Z3V3T1G:MM3Z3V3T1G"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 278.5735 108.6062 0)
 			(effects
 				(font
@@ -10207,7 +10207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM3Z3V3T1G:MM3Z3V3T1G"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 201.93 30.48 0)
 			(effects
 				(font
@@ -11159,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Project:Thermistor"
+		(property "Footprint" "Library:Thermistor"
 			(at 106.68 137.16 0)
 			(effects
 				(font
@@ -14021,7 +14021,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c34490ad-053a-48ec-b2b7-0bef3e4944d0")
 		(property "Reference" "#PWR092"
 			(at 198.12 20.689 0)
@@ -14579,7 +14578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117s-ADJ:1117s_ADJ"
+		(property "Footprint" "Library:1117s_ADJ"
 			(at 234.95 99.06 0)
 			(effects
 				(font
